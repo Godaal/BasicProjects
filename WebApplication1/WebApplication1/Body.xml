@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<body>
+  <img>
+    <src>images/b1.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Релаксираща пяна за вана</alt>
+  </img>
+  <img>
+    <src>images/b2.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Ободряваш душ</alt>
+  </img>
+  <img>
+    <src>images/b3.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Грижа за крака</alt>
+  </img>
+  <img>
+    <src>images/b4.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Естествена грижа</alt>
+  </img>
+  <img>
+    <src>images/b5.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Романтичен душ</alt>
+  </img>
+  <img>
+    <src>images/b6.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Грижа за ръце</alt>
+  </img>
+</body>

@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Контакти</title>
+    <link href="StyleSheet1.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <p></p>
+            <aside>
+                <p>AVON</p>
+            </aside>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="Home.html">Начало</a>
+                    </li>
+                    <li>
+                        <a href="ForUs.html">За нас</a>
+                    </li>
+                    <li>
+                        <a href="Contacts.html">Контакти</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="contacts">
+            <header>
+                <h1>Контакти</h1>
+                <h3>Моля,попълнете формата!</h3>
+            </header>
+            <article class="one-column">
+                <form method="post" action="Home.html" name="messege">
+                    <table>
+                        <tr>
+                            <td>Собствено име:</td>
+                            <td><input type="text" name="firstName" required
+                                       oninvalid="this.setCustomValidity('Моля, въведете собствено име!');"
+                                       oninput="this.setCustomValidity('');"/></td>
+                        </tr>
+                        <tr>
+                            <td>Фамилно име:</td>
+                            <td><input type="text" name="familyName" required 
+                                       oninvalid="this.setCustomValidity('Моля, въведете фамилно име!');" 
+                                       oninput="this.setCustomValidity('');"/></td>
+                        </tr>
+                        <tr>
+                            <td>Електронна поща:</td>
+                            <td><input type="email" name="email" required 
+                                       oninvalid="validate(event);"
+                                       oninput="this.setCustomValidity('');"/></td>
+                        </tr>
+                        <tr>
+                            <td>Външни запитвания:</td>
+                            <td><select name="search" required
+                                        oninvalid="this.setCustomValidity( 'Моля, изберете вида на запитването!');" 
+                                        onchange="this.setCustomValidity('');">
+                                <option value="">Избери</option>
+                                <option value="orders">Поръчки</option> 
+                                <option value="supplies">Доставки</option> 
+                                <option value="questions">Общи въпроси</option> 
+                                <option value="others">Други</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Коментари:</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <textarea rows="3" name="comments" required
+                                          oninvalid="this.setCustomValidity('Моля, въведете коментар!');" 
+                                          oninput="this.setCustomValidity('');"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit" value="Изпрати" class="button-submit" />
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </article>
+        </section>
+        <footer>
+            <p>&copy; 2019 AVON</p>
+        </footer>
+    </div>
+    <script>
+        function validate(event) {
+            event.target.setCustomValidity("");
+            if (!event.target.validity.valid) {
+                if (event.target.validity.valueMissing) {
+                    event.target.setCustomValidity("Моля, въведете адрес за електронна поща!");
+                } else {
+                    if (event.target.validity.typeMismatch) {
+                        event.target.setCustomValidity("Моля, въведете валиден адрес за електронна поща!");
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

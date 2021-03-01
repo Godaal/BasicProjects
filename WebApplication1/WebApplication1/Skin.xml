@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<body>
+  <img>
+    <src>images/f1.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Течна очна линия</alt>
+  </img>
+  <img>
+    <src>images/f2.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Спирала</alt>
+  </img>
+  <img>
+    <src>images/f3.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Дневен и нощен крем за лице</alt>
+  </img>
+  <img>
+    <src>images/f4.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Грим за лице</alt>
+  </img>
+  <img>
+    <src>images/f5.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Сенки за очи и грим за устни</alt>
+  </img>
+  <img>
+    <src>images/f6.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Червила</alt>
+  </img>
+</body>

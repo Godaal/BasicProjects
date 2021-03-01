@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<body>
+  <img>
+    <src>images/h1.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Боя за коса</alt>
+  </img>
+  <img>
+    <src>images/h2.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Нова прическа</alt>
+  </img>
+  <img>
+    <src>images/h3.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Четка за коса</alt>
+  </img>
+  <img>
+    <src>images/h4.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Балсами и шампоани</alt>
+  </img>
+  <img>
+    <src>images/h5.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Шампоан за подхранена и здрава коса</alt>
+  </img>
+  <img>
+    <src>images/h6.jpg</src>
+    <onclick>onClick(this)</onclick>
+    <alt>Луксозна BB терапия</alt>
+  </img>
+</body>
